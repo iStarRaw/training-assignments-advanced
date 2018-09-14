@@ -32,6 +32,10 @@
 package com.jme3.material.logic;
 
 import com.jme3.asset.AssetManager;
+import com.jme3.display.shader.DefineList;
+import com.jme3.display.shader.Shader;
+import com.jme3.display.shader.Uniform;
+import com.jme3.display.shader.VarType;
 import com.jme3.light.DirectionalLight;
 import com.jme3.light.Light;
 import com.jme3.light.LightList;
@@ -47,10 +51,6 @@ import com.jme3.renderer.Caps;
 import com.jme3.renderer.RenderManager;
 import com.jme3.renderer.Renderer;
 import com.jme3.scene.Geometry;
-import com.jme3.shader.DefineList;
-import com.jme3.shader.Shader;
-import com.jme3.shader.Uniform;
-import com.jme3.shader.VarType;
 import com.jme3.util.TempVars;
 import java.util.EnumSet;
 

@@ -29,7 +29,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.jme3.shadow;
+package com.jme3.display.shadow;
 
 /**
  * <code>ShadowEdgeFiltering</code> specifies how shadows are filtered
