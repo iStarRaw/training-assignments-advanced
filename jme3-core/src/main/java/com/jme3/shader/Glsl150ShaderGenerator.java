@@ -29,11 +29,11 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.jme3.display.shader;
+package com.jme3.shader;
 
 import com.jme3.asset.AssetManager;
-import com.jme3.display.shader.Shader.ShaderType;
 import com.jme3.material.ShaderGenerationInfo;
+import com.jme3.shader.Shader.ShaderType;
 
 /**
  * This shader Generator can generate Vertex and Fragment shaders from

@@ -31,7 +31,6 @@
  */
 package com.jme3.animation;
 
-import com.jme3.display.shader.VarType;
 import com.jme3.export.*;
 import com.jme3.material.MatParam;
 import com.jme3.material.Material;
@@ -44,6 +43,7 @@ import com.jme3.scene.*;
 import com.jme3.scene.VertexBuffer.Type;
 import com.jme3.scene.control.AbstractControl;
 import com.jme3.scene.control.Control;
+import com.jme3.shader.VarType;
 import com.jme3.util.SafeArrayList;
 import com.jme3.util.TempVars;
 import com.jme3.util.clone.Cloner;

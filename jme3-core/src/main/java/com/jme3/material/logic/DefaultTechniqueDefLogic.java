@@ -32,8 +32,6 @@
 package com.jme3.material.logic;
 
 import com.jme3.asset.AssetManager;
-import com.jme3.display.shader.DefineList;
-import com.jme3.display.shader.Shader;
 import com.jme3.light.*;
 import com.jme3.material.TechniqueDef;
 import com.jme3.math.ColorRGBA;
@@ -43,6 +41,8 @@ import com.jme3.renderer.Renderer;
 import com.jme3.scene.Geometry;
 import com.jme3.scene.Mesh;
 import com.jme3.scene.instancing.InstancedGeometry;
+import com.jme3.shader.DefineList;
+import com.jme3.shader.Shader;
 
 import java.util.EnumSet;
 
