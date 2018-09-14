@@ -29,7 +29,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.jme3.scene.debug;
+package com.jme3.sceneeliments.scene.debug;
 
 import java.nio.FloatBuffer;
 import java.nio.ShortBuffer;
@@ -38,11 +38,11 @@ import java.util.Map;
 import com.jme3.animation.Bone;
 import com.jme3.animation.Skeleton;
 import com.jme3.math.Vector3f;
-import com.jme3.scene.Mesh;
-import com.jme3.scene.VertexBuffer;
-import com.jme3.scene.VertexBuffer.Format;
-import com.jme3.scene.VertexBuffer.Type;
-import com.jme3.scene.VertexBuffer.Usage;
+import com.jme3.sceneeliments.scene.Mesh;
+import com.jme3.sceneeliments.scene.VertexBuffer;
+import com.jme3.sceneeliments.scene.VertexBuffer.Format;
+import com.jme3.sceneeliments.scene.VertexBuffer.Type;
+import com.jme3.sceneeliments.scene.VertexBuffer.Usage;
 import com.jme3.util.BufferUtils;
 
 /**

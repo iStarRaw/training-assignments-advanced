@@ -30,7 +30,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 // $Id: Cylinder.java 4131 2009-03-19 20:15:28Z blaine.dev $
-package com.jme3.scene.shape;
+package com.jme3.sceneeliments.scene.shape;
 
 import com.jme3.export.InputCapsule;
 import com.jme3.export.JmeExporter;
@@ -38,9 +38,9 @@ import com.jme3.export.JmeImporter;
 import com.jme3.export.OutputCapsule;
 import com.jme3.math.FastMath;
 import com.jme3.math.Vector3f;
-import com.jme3.scene.Mesh;
-import com.jme3.scene.VertexBuffer.Type;
-import com.jme3.scene.mesh.IndexBuffer;
+import com.jme3.sceneeliments.scene.Mesh;
+import com.jme3.sceneeliments.scene.VertexBuffer.Type;
+import com.jme3.sceneeliments.scene.mesh.IndexBuffer;
 import com.jme3.util.BufferUtils;
 import static com.jme3.util.BufferUtils.*;
 import java.io.IOException;

@@ -44,10 +44,10 @@ import com.jme3.input.controls.Trigger;
 import com.jme3.math.FastMath;
 import com.jme3.math.Quaternion;
 import com.jme3.math.Vector3f;
-import com.jme3.scene.CameraNode;
-import com.jme3.scene.Node;
-import com.jme3.scene.Spatial;
-import com.jme3.scene.control.CameraControl;
+import com.jme3.sceneeliments.scene.CameraNode;
+import com.jme3.sceneeliments.scene.Node;
+import com.jme3.sceneeliments.scene.Spatial;
+import com.jme3.sceneeliments.scene.control.CameraControl;
 import com.jme3.util.TempVars;
 
 /**

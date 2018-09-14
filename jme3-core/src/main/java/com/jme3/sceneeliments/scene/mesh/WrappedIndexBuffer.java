@@ -29,14 +29,15 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.jme3.scene.mesh;
+package com.jme3.sceneeliments.scene.mesh;
 
-import com.jme3.scene.Mesh;
-import com.jme3.scene.Mesh.Mode;
-import com.jme3.scene.VertexBuffer.Type;
 import java.nio.Buffer;
 import java.nio.IntBuffer;
 import java.nio.ShortBuffer;
+
+import com.jme3.sceneeliments.scene.Mesh;
+import com.jme3.sceneeliments.scene.Mesh.Mode;
+import com.jme3.sceneeliments.scene.VertexBuffer.Type;
 
 /**
  * <code>WrappedIndexBuffer</code> converts vertex indices from a non list based

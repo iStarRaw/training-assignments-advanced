@@ -29,7 +29,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.jme3.scene.mesh;
+package com.jme3.sceneeliments.scene.mesh;
 
 import com.jme3.util.BufferUtils;
 import java.nio.Buffer;

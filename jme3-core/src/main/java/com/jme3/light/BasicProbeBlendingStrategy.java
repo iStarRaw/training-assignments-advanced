@@ -31,9 +31,10 @@
  */
 package com.jme3.light;
 
-import com.jme3.scene.Geometry;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.jme3.sceneeliments.scene.Geometry;
 
 /**
  * This strategy returns the closest probe from the rendered object.

@@ -32,10 +32,10 @@
 package com.jme3.font;
 
 import com.jme3.material.Material;
-import com.jme3.scene.Geometry;
-import com.jme3.scene.Mesh;
-import com.jme3.scene.VertexBuffer;
-import com.jme3.scene.VertexBuffer.Type;
+import com.jme3.sceneeliments.scene.Geometry;
+import com.jme3.sceneeliments.scene.Mesh;
+import com.jme3.sceneeliments.scene.VertexBuffer;
+import com.jme3.sceneeliments.scene.VertexBuffer.Type;
 import com.jme3.texture.Texture2D;
 import com.jme3.util.BufferUtils;
 import com.jme3.util.clone.Cloner;

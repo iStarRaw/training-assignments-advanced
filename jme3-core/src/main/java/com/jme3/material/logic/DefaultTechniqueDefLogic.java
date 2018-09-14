@@ -40,9 +40,9 @@ import com.jme3.math.ColorRGBA;
 import com.jme3.renderer.Caps;
 import com.jme3.renderer.RenderManager;
 import com.jme3.renderer.Renderer;
-import com.jme3.scene.Geometry;
-import com.jme3.scene.Mesh;
-import com.jme3.scene.instancing.InstancedGeometry;
+import com.jme3.sceneeliments.scene.Geometry;
+import com.jme3.sceneeliments.scene.Mesh;
+import com.jme3.sceneeliments.scene.instancing.InstancedGeometry;
 
 import java.util.EnumSet;
 

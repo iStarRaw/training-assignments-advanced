@@ -29,7 +29,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.jme3.scene;
+package com.jme3.sceneeliments.scene;
 
 import com.jme3.bounding.BoundingVolume;
 import com.jme3.collision.Collidable;

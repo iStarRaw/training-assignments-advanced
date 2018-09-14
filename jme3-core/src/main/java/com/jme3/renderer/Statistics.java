@@ -32,7 +32,7 @@
 package com.jme3.renderer;
 
 import com.jme3.display.shader.Shader;
-import com.jme3.scene.Mesh;
+import com.jme3.sceneeliments.scene.Mesh;
 import com.jme3.texture.FrameBuffer;
 import com.jme3.texture.Image;
 import com.jme3.util.IntMap;

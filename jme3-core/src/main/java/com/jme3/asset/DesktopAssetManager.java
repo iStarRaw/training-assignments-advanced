@@ -41,7 +41,7 @@ import com.jme3.font.BitmapFont;
 import com.jme3.material.Material;
 import com.jme3.post.FilterPostProcessor;
 import com.jme3.renderer.Caps;
-import com.jme3.scene.Spatial;
+import com.jme3.sceneeliments.scene.Spatial;
 import com.jme3.system.JmeSystem;
 import com.jme3.texture.Texture;
 import java.io.IOException;

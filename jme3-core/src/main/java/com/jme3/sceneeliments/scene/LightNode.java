@@ -29,13 +29,13 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.jme3.scene;
+package com.jme3.sceneeliments.scene;
 
 import com.jme3.export.JmeExporter;
 import com.jme3.export.JmeImporter;
 import com.jme3.light.Light;
-import com.jme3.scene.control.LightControl;
-import com.jme3.scene.control.LightControl.ControlDirection;
+import com.jme3.sceneeliments.scene.control.LightControl;
+import com.jme3.sceneeliments.scene.control.LightControl.ControlDirection;
 import com.jme3.util.clone.Cloner;
 import java.io.IOException;
 

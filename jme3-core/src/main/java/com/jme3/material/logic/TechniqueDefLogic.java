@@ -40,7 +40,7 @@ import com.jme3.light.LightList;
 import com.jme3.material.TechniqueDef.LightMode;
 import com.jme3.renderer.Caps;
 import com.jme3.renderer.RenderManager;
-import com.jme3.scene.Geometry;
+import com.jme3.sceneeliments.scene.Geometry;
 import com.jme3.texture.Texture;
 import java.util.EnumSet;
 

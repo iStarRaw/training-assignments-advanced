@@ -49,7 +49,7 @@ import com.jme3.renderer.Caps;
 import com.jme3.renderer.RenderManager;
 import com.jme3.renderer.Renderer;
 import com.jme3.renderer.queue.RenderQueue.Bucket;
-import com.jme3.scene.Geometry;
+import com.jme3.sceneeliments.scene.Geometry;
 import com.jme3.texture.Image;
 import com.jme3.texture.Texture;
 import com.jme3.texture.image.ColorSpace;
