@@ -48,7 +48,7 @@ import com.jme3.math.Vector3f;
 import com.jme3.renderer.Caps;
 import com.jme3.renderer.RenderManager;
 import com.jme3.renderer.Renderer;
-import com.jme3.sceneeliments.scene.Geometry;
+import com.jme3.scene.Geometry;
 
 import java.util.ArrayList;
 import java.util.EnumSet;

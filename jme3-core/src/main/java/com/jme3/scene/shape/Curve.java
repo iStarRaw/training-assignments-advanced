@@ -29,12 +29,12 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.jme3.sceneeliments.scene.shape;
+package com.jme3.scene.shape;
 
 import com.jme3.math.Spline;
 import com.jme3.math.Vector3f;
-import com.jme3.sceneeliments.scene.Mesh;
-import com.jme3.sceneeliments.scene.VertexBuffer;
+import com.jme3.scene.Mesh;
+import com.jme3.scene.VertexBuffer;
 
 import java.util.Iterator;
 import java.util.List;

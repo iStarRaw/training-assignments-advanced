@@ -29,7 +29,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.jme3.sceneeliments.scene.control;
+package com.jme3.scene.control;
 
 import com.jme3.export.InputCapsule;
 import com.jme3.export.JmeExporter;
@@ -42,8 +42,8 @@ import com.jme3.math.Vector3f;
 import com.jme3.renderer.Camera;
 import com.jme3.renderer.RenderManager;
 import com.jme3.renderer.ViewPort;
-import com.jme3.sceneeliments.scene.Node;
-import com.jme3.sceneeliments.scene.Spatial;
+import com.jme3.scene.Node;
+import com.jme3.scene.Spatial;
 
 import java.io.IOException;
 

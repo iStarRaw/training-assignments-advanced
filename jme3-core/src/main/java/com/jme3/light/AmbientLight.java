@@ -36,7 +36,7 @@ import com.jme3.bounding.BoundingSphere;
 import com.jme3.math.ColorRGBA;
 import com.jme3.math.Vector3f;
 import com.jme3.renderer.Camera;
-import com.jme3.sceneeliments.scene.Spatial;
+import com.jme3.scene.Spatial;
 import com.jme3.util.TempVars;
 
 /**

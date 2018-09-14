@@ -35,8 +35,8 @@ import com.jme3.display.shader.Shader;
 import com.jme3.display.shader.Shader.ShaderSource;
 import com.jme3.material.RenderState;
 import com.jme3.math.ColorRGBA;
-import com.jme3.sceneeliments.scene.Mesh;
-import com.jme3.sceneeliments.scene.VertexBuffer;
+import com.jme3.scene.Mesh;
+import com.jme3.scene.VertexBuffer;
 import com.jme3.system.AppSettings;
 import com.jme3.texture.FrameBuffer;
 import com.jme3.texture.Image;
@@ -285,7 +285,7 @@ public interface Renderer {
      * per-instance vertex attribute to the shader.
      *
      * @param mesh The mesh to render
-     * @param lod The LOD level to use, see {@link Mesh#setLodLevels(com.jme3.sceneeliments.scene.VertexBuffer[]) }.
+     * @param lod The LOD level to use, see {@link Mesh#setLodLevels(com.jme3.scene.VertexBuffer[]) }.
      * @param count Number of mesh instances to render
      * @param instanceData When count is greater than 1, these buffers provide
      *                     the per-instance attributes.

@@ -38,10 +38,10 @@ import com.jme3.material.Material;
 import com.jme3.light.LightProbe;
 import com.jme3.light.Light;
 import com.jme3.renderer.RenderManager;
-import com.jme3.sceneeliments.scene.Geometry;
-import com.jme3.sceneeliments.scene.Node;
-import com.jme3.sceneeliments.scene.Spatial;
-import com.jme3.sceneeliments.scene.shape.Sphere;
+import com.jme3.scene.Geometry;
+import com.jme3.scene.Node;
+import com.jme3.scene.Spatial;
+import com.jme3.scene.shape.Sphere;
 
 import java.util.ArrayList;
 import java.util.HashMap;

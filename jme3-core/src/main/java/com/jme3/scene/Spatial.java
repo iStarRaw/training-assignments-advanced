@@ -29,7 +29,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.jme3.sceneeliments.scene;
+package com.jme3.scene;
 
 import com.jme3.asset.AssetKey;
 import com.jme3.asset.CloneableSmartAsset;
@@ -47,7 +47,7 @@ import com.jme3.renderer.ViewPort;
 import com.jme3.renderer.queue.RenderQueue;
 import com.jme3.renderer.queue.RenderQueue.Bucket;
 import com.jme3.renderer.queue.RenderQueue.ShadowMode;
-import com.jme3.sceneeliments.scene.control.Control;
+import com.jme3.scene.control.Control;
 import com.jme3.util.clone.Cloner;
 import com.jme3.util.clone.IdentityCloneFunction;
 import com.jme3.util.clone.JmeCloneable;
@@ -744,7 +744,7 @@ public abstract class Spatial implements Savable, Cloneable, Collidable, Cloneab
      * @param rm The RenderManager rendering the Spatial.
      * @param vp The ViewPort to which the Spatial is being rendered to.
      *
-     * @see Spatial#addControl(com.jme3.sceneeliments.scene.control.Control)
+     * @see Spatial#addControl(com.jme3.scene.control.Control)
      * @see Spatial#getControl(java.lang.Class)
      */
     public void runControlRender(RenderManager rm, ViewPort vp) {
@@ -779,7 +779,7 @@ public abstract class Spatial implements Savable, Cloneable, Collidable, Cloneab
     /**
      * Removes the first control that is an instance of the given class.
      *
-     * @see Spatial#addControl(com.jme3.sceneeliments.scene.control.Control)
+     * @see Spatial#addControl(com.jme3.scene.control.Control)
      */
     public void removeControl(Class<? extends Control> controlType) {
         boolean before = requiresUpdates();
@@ -806,7 +806,7 @@ public abstract class Spatial implements Savable, Cloneable, Collidable, Cloneab
      * @return True if the control was successfully removed. False if the
      * control is not assigned to this spatial.
      *
-     * @see Spatial#addControl(com.jme3.sceneeliments.scene.control.Control)
+     * @see Spatial#addControl(com.jme3.scene.control.Control)
      */
     public boolean removeControl(Control control) {
         boolean before = requiresUpdates();
@@ -832,7 +832,7 @@ public abstract class Spatial implements Savable, Cloneable, Collidable, Cloneab
      * @param controlType The superclass of the control to look for.
      * @return The first instance in the list of the controlType class, or null.
      *
-     * @see Spatial#addControl(com.jme3.sceneeliments.scene.control.Control)
+     * @see Spatial#addControl(com.jme3.scene.control.Control)
      */
     public <T extends Control> T getControl(Class<T> controlType) {
         for (Control c : controls.getArray()) {
@@ -852,7 +852,7 @@ public abstract class Spatial implements Savable, Cloneable, Collidable, Cloneab
      * @throws IndexOutOfBoundsException
      *      If the index is outside the range [0, getNumControls()-1]
      *
-     * @see Spatial#addControl(com.jme3.sceneeliments.scene.control.Control)
+     * @see Spatial#addControl(com.jme3.scene.control.Control)
      */
     public Control getControl(int index) {
         return controls.get(index);
@@ -860,7 +860,7 @@ public abstract class Spatial implements Savable, Cloneable, Collidable, Cloneab
 
     /**
      * @return The number of controls attached to this Spatial.
-     * @see Spatial#addControl(com.jme3.sceneeliments.scene.control.Control)
+     * @see Spatial#addControl(com.jme3.scene.control.Control)
      * @see Spatial#removeControl(java.lang.Class)
      */
     public int getNumControls() {
@@ -873,7 +873,7 @@ public abstract class Spatial implements Savable, Cloneable, Collidable, Cloneab
      *
      * @param tpf Time per frame.
      *
-     * @see Spatial#addControl(com.jme3.sceneeliments.scene.control.Control)
+     * @see Spatial#addControl(com.jme3.scene.control.Control)
      */
     public void updateLogicalState(float tpf) {
         runControlUpdate(tpf);

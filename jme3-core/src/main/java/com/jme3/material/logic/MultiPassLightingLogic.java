@@ -52,7 +52,7 @@ import com.jme3.math.Vector4f;
 import com.jme3.renderer.Caps;
 import com.jme3.renderer.RenderManager;
 import com.jme3.renderer.Renderer;
-import com.jme3.sceneeliments.scene.Geometry;
+import com.jme3.scene.Geometry;
 import com.jme3.util.TempVars;
 import java.util.EnumSet;
 

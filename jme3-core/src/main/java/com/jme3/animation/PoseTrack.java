@@ -32,9 +32,9 @@
 package com.jme3.animation;
 
 import com.jme3.export.*;
-import com.jme3.sceneeliments.scene.Mesh;
-import com.jme3.sceneeliments.scene.VertexBuffer;
-import com.jme3.sceneeliments.scene.VertexBuffer.Type;
+import com.jme3.scene.Mesh;
+import com.jme3.scene.VertexBuffer;
+import com.jme3.scene.VertexBuffer.Type;
 import com.jme3.util.TempVars;
 import java.io.IOException;
 import java.nio.FloatBuffer;

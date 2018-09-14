@@ -32,8 +32,8 @@
 package com.jme3.environment;
 
 import com.jme3.light.LightProbe;
-import com.jme3.sceneeliments.scene.Node;
-import com.jme3.sceneeliments.scene.Spatial;
+import com.jme3.scene.Node;
+import com.jme3.scene.Spatial;
 import com.jme3.environment.generation.JobProgressListener;
 import com.jme3.environment.generation.PrefilteredEnvMapFaceGenerator;
 import com.jme3.environment.generation.IrradianceMapGenerator;
@@ -52,10 +52,10 @@ import java.util.concurrent.ScheduledThreadPoolExecutor;
  * The process is the folowing : 
  * 1. Create an EnvironmentCamera
  * 2. give it a position in the scene
- * 3. call {@link LightProbeFactory#makeProbe(com.jme3.environment.EnvironmentCamera, com.jme3.sceneeliments.scene.Node)}
+ * 3. call {@link LightProbeFactory#makeProbe(com.jme3.environment.EnvironmentCamera, com.jme3.scene.Node)}
  * 4. add the created LightProbe to a node with the {@link Node#addLight(com.jme3.light.Light) } method.
  * 
- * Optionally for step 3 call {@link LightProbeFactory#makeProbe(com.jme3.environment.EnvironmentCamera, com.jme3.sceneeliments.scene.Node, com.jme3.environment.generation.JobProgressListener) }
+ * Optionally for step 3 call {@link LightProbeFactory#makeProbe(com.jme3.environment.EnvironmentCamera, com.jme3.scene.Node, com.jme3.environment.generation.JobProgressListener) }
  * with a {@link JobProgressListener} to be notified of the progress of the generation process.
  * 
  * The generation will be split in several threads for faster generation. 
@@ -79,7 +79,7 @@ public class LightProbeFactory {
      * The process is thread safe.
      * The created lightProbe will only be marked as ready when the rendering process is done.
      * 
-     * If you want to monitor the process use {@link LightProbeFactory#makeProbe(com.jme3.environment.EnvironmentCamera, com.jme3.sceneeliments.scene.Node, com.jme3.environment.generation.JobProgressListener) }
+     * If you want to monitor the process use {@link LightProbeFactory#makeProbe(com.jme3.environment.EnvironmentCamera, com.jme3.scene.Node, com.jme3.environment.generation.JobProgressListener) }
      * 
      *
      * 

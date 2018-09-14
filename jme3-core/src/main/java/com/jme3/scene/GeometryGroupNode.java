@@ -1,4 +1,4 @@
-package com.jme3.sceneeliments.scene;
+package com.jme3.scene;
 
 /**
  * An abstract class for implementations that perform grouping of geometries

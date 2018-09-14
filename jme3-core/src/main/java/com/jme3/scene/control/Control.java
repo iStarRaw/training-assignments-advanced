@@ -29,12 +29,12 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.jme3.sceneeliments.scene.control;
+package com.jme3.scene.control;
 
 import com.jme3.export.Savable;
 import com.jme3.renderer.RenderManager;
 import com.jme3.renderer.ViewPort;
-import com.jme3.sceneeliments.scene.Spatial;
+import com.jme3.scene.Spatial;
 
 /**
  * An interface for scene-graph controls. 

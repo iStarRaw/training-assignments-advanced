@@ -39,7 +39,7 @@ import com.jme3.material.*;
 import com.jme3.material.RenderState.BlendMode;
 import com.jme3.math.*;
 import com.jme3.renderer.*;
-import com.jme3.sceneeliments.scene.Geometry;
+import com.jme3.scene.Geometry;
 import com.jme3.util.TempVars;
 
 import java.util.EnumSet;

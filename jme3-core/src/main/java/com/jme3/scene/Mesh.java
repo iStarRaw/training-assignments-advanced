@@ -29,7 +29,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.jme3.sceneeliments.scene;
+package com.jme3.scene;
 
 import com.jme3.bounding.BoundingBox;
 import com.jme3.bounding.BoundingVolume;
@@ -43,10 +43,10 @@ import com.jme3.math.Matrix4f;
 import com.jme3.math.Triangle;
 import com.jme3.math.Vector2f;
 import com.jme3.math.Vector3f;
-import com.jme3.sceneeliments.scene.VertexBuffer.Format;
-import com.jme3.sceneeliments.scene.VertexBuffer.Type;
-import com.jme3.sceneeliments.scene.VertexBuffer.Usage;
-import com.jme3.sceneeliments.scene.mesh.*;
+import com.jme3.scene.VertexBuffer.Format;
+import com.jme3.scene.VertexBuffer.Type;
+import com.jme3.scene.VertexBuffer.Usage;
+import com.jme3.scene.mesh.*;
 import com.jme3.util.BufferUtils;
 import com.jme3.util.IntMap;
 import com.jme3.util.IntMap.Entry;
@@ -503,7 +503,7 @@ public class Mesh implements Savable, Cloneable, JmeCloneable {
      * @throws IndexOutOfBoundsException If the index is outside of the
      * range [0, {@link #getNumLodLevels()}].
      *
-     * @see #setLodLevels(com.jme3.sceneeliments.scene.VertexBuffer[])
+     * @see #setLodLevels(com.jme3.scene.VertexBuffer[])
      */
     public VertexBuffer getLodLevel(int lod){
         return lodLevels[lod];
@@ -548,7 +548,7 @@ public class Mesh implements Savable, Cloneable, JmeCloneable {
      *
      * @return the mesh mode
      *
-     * @see #setMode(com.jme3.sceneeliments.scene.Mesh.Mode)
+     * @see #setMode(com.jme3.scene.Mesh.Mode)
      */
     public Mode getMode() {
         return mode;
